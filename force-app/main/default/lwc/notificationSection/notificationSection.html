@@ -1,0 +1,20 @@
+<template>
+    <template for:each={notifications} for:item='notification'>
+        <div
+            key={notification.Id}
+            class={notification.cssStyle}
+            data-notification-id={notification.Id}
+            role='alert'
+            onclick={handleNotificationRedirect}
+        >
+            <template for:each={notification.NotificationMessageContents__r} for:item='notificationItem'>
+                <p
+                    key={notificationItem.Id}
+                    class={notificationItem.TextType__c}
+                >
+                    {notificationItem.TextContent__c}
+                </p>
+            </template>
+        </div>
+    </template>
+</template>

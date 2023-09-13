@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>warningBlock</label>
+    <protected>false</protected>
+    <values>
+        <field>EndDate__c</field>
+        <value xsi:type="xsd:dateTime">2023-09-14T04:52:00.000Z</value>
+    </values>
+    <values>
+        <field>FromDate__c</field>
+        <value xsi:type="xsd:dateTime">2023-09-12T04:52:00.000Z</value>
+    </values>
+    <values>
+        <field>Group__c</field>
+        <value xsi:type="xsd:string">mainContainer</value>
+    </values>
+    <values>
+        <field>HelpURL__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsLink__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1000.0</value>
+    </values>
+    <values>
+        <field>Variant__c</field>
+        <value xsi:type="xsd:string">warning</value>
+    </values>
+</CustomMetadata>

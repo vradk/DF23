@@ -1,0 +1,32 @@
+.header {
+    font-weight: bold;
+}
+
+.alert {
+    padding: 0.875rem 1.25rem 0.875rem 2.5rem;
+    border-radius: 0.625rem;
+    font-weight: 400;
+}
+
+.alert-amber {
+    color: black;
+    background-color: #fff3cc;
+    border-color: #ffeeb8;
+}
+
+.alert-info {
+    color: #134884;
+    background-color: #d3e8ff;
+    border-color: #c2defe;
+}
+
+.alert-warning {
+    color: #000a21;
+    background-color: #f6b2a5;
+    border-color: #f76f57;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
